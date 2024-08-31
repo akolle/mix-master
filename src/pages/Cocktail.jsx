@@ -26,6 +26,8 @@ const Cocktail = () => {
     strInstructions: instructions,
   } = singleDrink
 
+  const validIngredients = Object.keys(singleDrink)
+  console.log(validIngredients)
   return (
     <Wrapper>
       <header>
